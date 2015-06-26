@@ -1,0 +1,51 @@
+.ief {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 99999;
+}
+.ief__box {
+  display: block;
+  width: 700px;
+  text-align: center;
+  margin: 192px auto 0 auto;
+}
+.ief__text {
+  color: #555;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 48px 0;
+}
+.ief__list {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+}
+.ief__item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0 12px;
+}
+.ief__link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url('img/ief.jpg') no-repeat;
+}
+.ief__link--chrome {
+  background-position: 0 0;
+}
+.ief__link--firefox {
+  background-position: -48px 0;
+}
+.ief__link--safari {
+  background-position: -96px 0;
+}
+.ief__link--ie {
+  background-position: -144px 0;
+}

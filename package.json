@@ -1,0 +1,25 @@
+{
+  "name": "Starter",
+  "version": "1.0.0",
+  "description": "Lightweight, mobile-first starter build with gulp and sass.",
+  "author": "Pawel Grzybek",
+  "keywords": [
+    "css",
+    "gulp",
+    "scss",
+    "sass",
+    "mobile-first",
+    "responsive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studiorgb/Starter"
+  },
+  "homepage": "http://studiorgb.uk",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-sass": "~2.0.1",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-uglify": "~1.2.0"
+  }
+}
